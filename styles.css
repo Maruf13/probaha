@@ -1,3 +1,35 @@
-.logo{
-    width: 200px;
+@font-face {
+    font-family: 'hostoshoily';
+    src: url(fonts/Hosthoshoily.woff2);
+}
+@font-face {
+    font-family: 'shobuj';
+    src: url(fonts/Shobuj_Borno.woff2);
+}
+body{
+    font-family: shobuj;
+}
+
+@media (max-width: 768px) {
+    #first {
+        border-right: 0px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    #lower_part {
+        border-right: 0px !important;
+        border-bottom: 1px solid white;
+    }
+}
+@media (max-width: 1200px) {
+    .lower_part2 {
+        border-right: 0px !important;
+    }
+    .epized {
+        border-right: 1px solid white;;
+    }
+    .halishor{
+        border-bottom: 1px solid white;
+    }
 }
