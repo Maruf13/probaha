@@ -9,6 +9,9 @@
 body{
     font-family: shobuj;
 }
+.text_style{
+    font-family: hostoshoily !important;
+}
 
 @media (max-width: 768px) {
     #first {
